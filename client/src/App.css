@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background: -webkit-radial-gradient(50% 0%, farthest-corner, blue, black, black);
+  /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(50% 0%, farthest-corner, blue, black, black);
+  /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(50% 0%, farthest-corner, blue, black, black);
+  /* For Firefox 3.6 to 15 */
+  background: radial-gradient(farthest-corner at 50% 0%, blue, black, black);
+  /* Standard syntax (must be last) */
+
+  color: white
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
